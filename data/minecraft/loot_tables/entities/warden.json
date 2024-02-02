@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_catalyst"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Tags:['blaze_powder'],CustomModelData:13456152}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "gold",
+                "text": "烈焰粉 合成配方",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [{
+                "text": "持于主手右键以解锁该配方。",
+                "color": "gray",
+                "italic": false
+              }]
+                
+            }
+          ],
+          "name": "minecraft:carrot_on_a_stick"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/warden"
+}

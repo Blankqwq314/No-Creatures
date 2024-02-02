@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "AOA",
+      "ODO",
+      "AOA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "O": {
+        "item": "obsidian"
+      }
+    },
+    "result": {
+      "item": "minecraft:ender_pearl",
+      "count":1
+    }
+  }

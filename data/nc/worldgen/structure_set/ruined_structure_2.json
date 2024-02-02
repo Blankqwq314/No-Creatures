@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "nc:ruined_structure_2",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 90,
+      "separation": 50,
+      "salt": 1145141919
+    }
+  }
