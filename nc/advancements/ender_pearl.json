@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "nc:ender_pearl"
+        }
+      }
+    },
+    "rewards":{
+          "function": "nc:extra_recipes/unlock_recipe_ep"
+      }
+  }
